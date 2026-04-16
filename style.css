@@ -1,0 +1,303 @@
+body {
+
+margin: 0;
+
+font-family: Arial, sans-serif;
+
+background-color: #f4f6f9;
+
+}
+
+
+/* Navbar */
+
+.navbar {
+
+position: sticky;
+
+top: 0;
+
+background-color: #222;
+
+color: white;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 15px 30px;
+
+}
+
+.logo {
+
+margin: 0;
+
+}
+
+.navbar ul {
+
+list-style: none;
+
+display: flex;
+
+}
+
+.navbar ul li {
+
+margin-left: 20px;
+
+}
+
+.navbar a {
+
+color: white;
+
+text-decoration: none;
+
+font-weight: bold;
+
+}
+
+.navbar a:hover {
+
+color: #00bcd4;
+
+}
+
+
+/* Dark Button */
+
+.dark-btn {
+
+margin-left: 20px;
+
+padding: 6px 10px;
+
+border-radius: 6px;
+
+border: none;
+
+cursor: pointer;
+
+}
+
+
+/* Hero */
+
+.hero {
+
+background: linear-gradient(
+to right,
+#00bcd4,
+#2196f3);
+
+color: white;
+
+text-align: center;
+
+padding: 60px 20px;
+
+}
+
+
+/* Slider */
+
+.slider {
+
+width: 100%;
+
+max-width: 900px;
+
+margin: 20px auto;
+
+}
+
+.slide {
+
+width: 100%;
+
+display: none;
+
+border-radius: 10px;
+
+}
+
+
+/* Cards */
+
+.blog-container {
+
+display: flex;
+
+justify-content: center;
+
+flex-wrap: wrap;
+
+padding: 20px;
+
+}
+
+.card {
+
+background: white;
+
+width: 300px;
+
+margin: 15px;
+
+padding: 15px;
+
+border-radius: 12px;
+
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+transition: 0.3s;
+
+}
+
+.card:hover {
+
+transform: scale(1.05);
+
+}
+
+.card img {
+
+width: 100%;
+
+border-radius: 10px;
+
+}
+
+
+/* Page */
+
+.page {
+
+padding: 40px;
+
+text-align: center;
+
+}
+
+
+/* Contact Form */
+
+.contact-form {
+
+max-width: 500px;
+
+margin: auto;
+
+display: flex;
+
+flex-direction: column;
+
+}
+
+.contact-form input,
+.contact-form textarea {
+
+padding: 10px;
+
+margin-top: 8px;
+
+border-radius: 8px;
+
+border: 1px solid #ccc;
+
+}
+
+.contact-form button {
+
+margin-top: 15px;
+
+padding: 10px;
+
+background-color: #2196f3;
+
+color: white;
+
+border: none;
+
+border-radius: 8px;
+
+cursor: pointer;
+
+}
+
+
+/* Footer */
+
+footer {
+
+background-color: #222;
+
+color: white;
+
+text-align: center;
+
+padding: 20px;
+
+margin-top: 30px;
+
+}
+
+
+/* Dark Mode */
+
+.dark-mode {
+
+background-color: #121212;
+
+color: white;
+
+}
+
+.dark-mode .card {
+
+background-color: #1e1e1e;
+
+}
+
+.dark-mode footer {
+
+background-color: black;
+
+}
+
+.dark-mode .navbar {
+
+background-color: black;
+
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+.navbar {
+
+flex-direction: column;
+
+}
+
+.blog-container {
+
+flex-direction: column;
+
+align-items: center;
+
+}
+
+.card {
+
+width: 90%;
+
+}
+
+}
